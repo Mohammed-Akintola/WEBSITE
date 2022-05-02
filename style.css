@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,500;1,600;1,700;1,800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+body{
+    background-image: url(/MEDIA/pexel.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+ul li{
+   padding: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    border-bottom: 2px solid #fff;
+}
+.aki{
+    margin: 50px;
+    padding: 50px;
+}
+.aki h1{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 200;
+}
+.aki h2{
+    font-size: 70px;
+    color: transparent;
+    text-transform: capitalize;
+    -webkit-text-stroke: 1px #fff;
+    line-height: 1em;
+
+}
+p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px 10px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    align-items: center;
+    color: #fff;
+    font-weight: 900;
+}
+span{
+    padding-left: 5px;
+    
+}
